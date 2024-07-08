@@ -1,0 +1,105 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  #signup, #signIn {
+    display: none; /* Hide sign-up and sign-in sections initially */
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .form-label {
+    display: flex;
+    align-items: center;/* ../css/style.css */
+    .container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+    }
+    
+    #signup, #signIn {
+        display: none;
+    }
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    .form-label {
+        display: flex;
+        align-items: center;
+    }
+    
+    .btn {
+        margin-top: 10px;
+    }
+    
+    .btn-link {
+        color: #007bff;
+        text-decoration: none;
+    }
+    
+    .btn-link:hover {
+        text-decoration: underline;
+    }
+    
+    .form-label i {
+        width: 24px;
+        text-align: center;
+        margin-right: 8px;
+    }
+    
+    .text-center .btn {
+        margin-top: 10px;
+    }
+    
+    @media (max-width: 576px) {
+        .container {
+            max-width: 100%;
+        }
+    }
+    
+  }
+  
+  .btn {
+    margin-top: 10px;
+  }
+  
+  .btn-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .btn-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style for icons inside form labels */
+  .form-label i {
+    width: 24px; /* Adjust as needed */
+    text-align: center;
+    margin-right: 8px;
+  }
+  
+  /* Adjustments for buttons inside the .text-center div */
+  .text-center .btn {
+    margin-top: 10px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 576px) {
+    .container {
+      max-width: 100%;
+    }
+  }
+  
